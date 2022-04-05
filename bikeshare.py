@@ -1,11 +1,17 @@
 import time
 import pandas as pd
 import numpy as np
+<<<<<<< HEAD
 #Build a dictionary that we need to use later
+||||||| 18cc31b
+
+=======
+#This is to build the dictionary for the data file so that we can use easier later
+>>>>>>> refactoring
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#This function is for get what user want to see for the later data
 def get_filters():
 
     print('Hello! Let\'s explore some US bikeshare data!')
