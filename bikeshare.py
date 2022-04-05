@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+#This is to build the dictionary for the data file so that we can use easier later
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
